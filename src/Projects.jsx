@@ -88,20 +88,19 @@ export const Projects = () => {
                     <div className="portfolio-box" >
                         <div className="portfolio-detail active">
                             <h2 data-aos="fade-right">FRONTEND PROJECTS</h2>
-                            <img data-aos="fade-up" src={line} alt="line" className='line' />
+                            <img src={line} data-aos="fade-up"  alt="line" className='line' />
                             <p data-aos="flip-left" className="numb">01</p>
-                            <h3 data-aos="fade-right">Signage Business</h3>
-                            <p data-aos="fade-right">Designed and developed a responsive single-page website using HTML, CSS, and JavaScript. Showcased smooth scrolling, clean UI, and interactive sections to highlight front-end development skills and creativity.</p>
+                            <h3 data-aos="fade-right">Meat Shopping</h3>
+                            <p data-aos="fade-right">Built a responsive meat shopping website using React, featuring categorized product listings for chicken, mutton, fish, and more. Showcases interactive UI, dynamic product filtering, and cart functionality.</p>
                             <div className="tech">
-                                <p data-aos="fade-right">HTML5, CSS3</p>
+                                <p data-aos="fade-right">ReactJs, API</p>
                             </div>
                             <div className="liveandgitdiv">
-                                <a data-aos="flip-left" href="https://santhosh-webd.github.io/Single-Page-Project/" target="_blank"><button className="liveproject">Live Project</button></a>
+                                <a data-aos="flip-left" href="https://meatify-shopping.netlify.app/" target="_blank"><button className="liveproject">Live Project</button></a>
                             <div className="live-github">
-                                <a data-aos="flip-left" href="https://github.com/Santhosh-webd/Single-Page-Project" target="_blank"><i class='bx bxl-github' ></i><span>Github Repostiory</span></a>
+                                <a data-aos="flip-left" href="https://github.com/Santhosh-webd/Meatify-Shopping" target="_blank"><i class='bx bxl-github' ></i><span>Github Repostiory</span></a>
                             </div>
                             </div>
-                                
                         </div>
 
                         <div className="portfolio-detail">
@@ -120,23 +119,28 @@ export const Projects = () => {
                             </div>
                             </div>
                         </div>
-
-                        <div className="portfolio-detail">
+                        
+                        <div className="portfolio-detail ">
                             <h2 data-aos="fade-right">FRONTEND PROJECTS</h2>
-                            <img src={line} data-aos="fade-up"  alt="line" className='line' />
+                            <img data-aos="fade-up" src={line} alt="line" className='line' />
                             <p data-aos="flip-left" className="numb">03</p>
-                            <h3 data-aos="fade-right">Meat Shopping</h3>
-                            <p data-aos="fade-right">Built a responsive meat shopping website using React, featuring categorized product listings for chicken, mutton, fish, and more. Showcases interactive UI, dynamic product filtering, and cart functionality.</p>
+                            <h3 data-aos="fade-right">Signage Business</h3>
+                            <p data-aos="fade-right">Designed and developed a responsive single-page website using HTML, CSS, and JavaScript. Showcased smooth scrolling, clean UI, and interactive sections to highlight front-end development skills and creativity.</p>
                             <div className="tech">
-                                <p data-aos="fade-right">ReactJs, API</p>
+                                <p data-aos="fade-right">HTML5, CSS3</p>
                             </div>
                             <div className="liveandgitdiv">
-                                <a data-aos="flip-left" href="https://meatify-shopping.netlify.app/" target="_blank"><button className="liveproject">Live Project</button></a>
+                                <a data-aos="flip-left" href="https://santhosh-webd.github.io/Single-Page-Project/" target="_blank"><button className="liveproject">Live Project</button></a>
                             <div className="live-github">
-                                <a data-aos="flip-left" href="https://github.com/Santhosh-webd/Meatify-Shopping" target="_blank"><i class='bx bxl-github' ></i><span>Github Repostiory</span></a>
+                                <a data-aos="flip-left" href="https://github.com/Santhosh-webd/Single-Page-Project" target="_blank"><i class='bx bxl-github' ></i><span>Github Repostiory</span></a>
                             </div>
                             </div>
+                                
                         </div>
+
+                        
+
+                        
 
                         <div className="portfolio-detail">
                             <h2 data-aos="fade-right">FRONTEND PROJECTS</h2>
@@ -194,13 +198,14 @@ export const Projects = () => {
                         <div className="portfolio-carousel">
                             <div className="img-slide"  >
                                 <div className="img-item">
-                                    <img src={singlepage} alt="" data-aos="flip-left" />
+                                    <img src={react} alt="" data-aos="flip-left"/>
                                 </div>
+                                
                                 <div className="img-item">
                                     <img src={multipage} alt="" data-aos="flip-left"/>
                                 </div>
                                 <div className="img-item">
-                                    <img src={react} alt="" data-aos="flip-left"/>
+                                    <img src={singlepage} alt="" data-aos="flip-left" />
                                 </div>
                                 <div className="img-item">
                                     <img src={dashboard} alt="" data-aos="flip-left" />
